@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Geologica:wght@100&family=Martel+Sans:wght@600;700&family=Poppins:wght@600&family=Roboto+Slab:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+.template{
+    margin: 0 auto;
+    width: 960px;
+}
+.header{
+    height: 120px;
+    background-color: rgb(255, 96, 149);
+    text-align: center;
+    color: white;
+}
+.header h1{
+    font-weight: bolder;
+    padding-top: 42px;
+   line-height: 5px;
+}
+.menu{
+    height: 50px;
+}
+.menu ul{
+    font-family: 'Geologica', sans-serif;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.menu ul li{
+    font-weight: 200;
+    text-transform: capitalize;
+    list-style: none;
+}
+.menu ul li:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+.section1{
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-image: url("https://i.pinimg.com/736x/54/e3/d3/54e3d36658959383ac0345e08a7f0473.jpg");
+    background-size: cover;
+}
+.sec-img img{
+    padding-top: 50px;
+}
+.sec-para h1{
+    padding-top: 90px;
+}
+.section-2{
+    height: 1380px;
+    background-color: rgba(252, 213, 252, 0.401);
+}
+.para {
+    padding-top: 40px;
+    text-align: center;
+}
+.para h3{
+    padding-top: 20px;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 200;
+}
+.para button{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(255, 96, 149);
+    color: white;
+}
+.para button:hover{
+    background-color: green;
+    cursor: pointer;
+    padding: 3px;
+}
+.idea-sec{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.box{
+    margin-top: 50px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    text-align: center;
+}
+.box i{
+    padding-top: 50px;
+}
+.box h2{
+    padding-top: 20px;
+}
+.box h5{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 200;
+    padding-top: 20px;
+}
+.box button{
+    padding: 5px 10px;
+    margin-top: 20px;
+    background-color: rgb(255, 96, 149);
+}
+.heading h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.auth-pic img{
+    height: 200px;
+    width: 200px;
+    padding-top: 20px;
+}
+.writing h4{
+    padding-top: 40px;
+}
+.pic-sec{
+    text-align: center;
+}
+.head h1{
+    padding-top: 40px;
+}
+.image-sec{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.image-sec img{
+    height: 280px;
+    width: 260px;
+}
+.pic-sec button{
+    background-color: rgb(255, 96, 149);
+    padding: 10px;
+    margin-top: 20px;
+}
